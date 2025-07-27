@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <section class="_fotos"></section>
+
+    <script>
+
+        const _fotos = document.querySelector("._fotos")
+        const quantidade = parseInt(prompt("Quantos deve carregar? 0 até 1000"))
+
+
+        for(let i=1; i <= quantidade;i++){
+            const img = new Image()
+            img.src = `./woman/${i}.jpg`
+            _fotos.appendChild(img)
+        }
+
+    </script>
+
+</body>
+</html>
