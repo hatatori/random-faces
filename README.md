@@ -7,3 +7,7 @@
 [man/1.jpg](https://hatatori.github.io/random-faces/man/1.jpg)
 [woman/1.jpg](https://hatatori.github.io/random-faces/woman/1.jpg)
 "# random-faces" 
+
+https://hatatori.github.io/random-faces/man
+https://hatatori.github.io/random-faces/woman
+https://hatatori.github.io/random-faces/random
